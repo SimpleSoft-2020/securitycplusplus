@@ -33,5 +33,7 @@ int main()
 	test c();
 	int i = 6;
 	test2 t(test(i) );	  //test2 t(test i)
+	//test c or test c{}
+	//test2 t{test(i)} ir test2 t((test (i)) )
 	return 0;
 }
