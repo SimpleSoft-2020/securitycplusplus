@@ -3,9 +3,9 @@
 #
 cmake_minimum_required (VERSION 3.8)
 
-project ("01")
+project ("002-01")
 
 # 将源代码添加到此项目的可执行文件。
-add_executable (01 "01.cpp" "01.h" )
+add_executable (002-01 "01.cpp" "01.h" )
 
 # TODO: 如有需要，请添加测试并安装目标。
